@@ -1,0 +1,31 @@
+INFO  time: initialize in 0.52s
+WARN  no build tool detected in workspace '/Users/amitjha/temp/quickstart/src/main/scala/com/example/quickstart'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/amitjha/temp/quickstart/src/main/scala/com/example/quickstart/Jokes.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Users/amitjha/temp/quickstart/src/main/scala/com/example/quickstart/QuickstartRoutes.scala
+WARN  no build tool detected in workspace '/Users/amitjha/temp/quickstart/src/main/scala/com/example/quickstart'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/amitjha/temp/quickstart/src/main/scala/com/example/quickstart'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/amitjha/temp/quickstart/src/main/scala/com/example/quickstart'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/amitjha/temp/quickstart/src/main/scala/com/example/quickstart'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/amitjha/temp/quickstart/src/main/scala/com/example/quickstart/HelloWorld.scala
+Nov 11, 2019 2:05:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Nov 11, 2019 2:05:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Nov 11, 2019 2:05:26 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 11, 2019 2:05:26 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: file:///Users/amitjha/temp/quickstart/src/main/scala/com/example/quickstart/HelloWorld.scala: 1288 >= 1288
+java.lang.AssertionError: assertion failed: file:///Users/amitjha/temp/quickstart/src/main/scala/com/example/quickstart/HelloWorld.scala: 1288 >= 1288
+	at scala.reflect.internal.util.SourceFile.position(SourceFile.scala:33)
+	at scala.tools.nsc.CompilationUnits$CompilationUnit.position(CompilationUnits.scala:133)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:21)
+

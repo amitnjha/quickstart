@@ -1,0 +1,5 @@
+.idea
+project/target
+target
+src/main/scala/com/example/quickstart/.metals/metals.h2.db
+src/main/scala/com/example/quickstart/.metals/metals.log
